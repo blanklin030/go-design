@@ -1,7 +1,7 @@
 ### go语言的类和对象
 > go语言通过struct结构体来模拟类
 ```
-type Bike struck{
+type Bike struct{
     color string // 首字母小写表示私有
     Name string // 首字母大写表示公有
 }
